@@ -1,0 +1,13 @@
+html {
+  font-size: 16px;
+}
+
+html body {
+  background: red;
+}
+
+html body div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
