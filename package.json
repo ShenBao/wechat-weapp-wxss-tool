@@ -1,14 +1,14 @@
 {
   "name": "wechat-wxss-tool",
   "version": "1.0.0",
-  "description": "",
+  "description": "微信小程序wxss小工具，将scss转化为wxss",
   "main": "gulpfile.js",
   "scripts": {
     "clean": "rm -rf css/*",
     "dev": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ShenBao shenbao.china@gmail.com",
   "license": "ISC",
   "devDependencies": {
     "glob": "^7.1.2",
@@ -16,5 +16,18 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShenBao/wechat-wxss-tool.git"
+  },
+  "keywords": [
+    "wechat",
+    "wechat-wxss",
+    "scss->wxsss"
+  ],
+  "bugs": {
+    "url": "https://github.com/ShenBao/wechat-wxss-tool/issues"
+  },
+  "homepage": "https://github.com/ShenBao/wechat-wxss-tool#readme"
 }
