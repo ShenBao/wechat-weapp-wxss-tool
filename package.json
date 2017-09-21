@@ -1,10 +1,10 @@
 {
-  "name": "wechat-wxss-tool",
+  "name": "wechat-weapp-wxss-tool",
   "version": "1.0.0",
   "description": "微信小程序wxss小工具，将scss转化为wxss",
   "main": "gulpfile.js",
   "scripts": {
-    "clean": "rm -rf css/*",
+    "clean": "rm -rf ./.css",
     "dev": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "devDependencies": {
     "glob": "^7.1.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0"
   },
