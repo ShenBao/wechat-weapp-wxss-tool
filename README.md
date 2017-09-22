@@ -1,7 +1,7 @@
 # wechat-weapp-wxss-tool
 # 微信小程序wxss小工具
 
-微信小程序wxss小工具，将scss转化为wxss
+微信小程序wxss小工具，将scss转化为wxss,并自动生成兼容的css代码
 
 # 运行
 - `npm install` 下载依赖包
@@ -42,6 +42,7 @@ wechat-weapp-wxss-tool
 ├──package.json npm scripts 命令配置在此，及其他相关配置
 ├──README.md   项目描述
 ```
+
 
 
 
