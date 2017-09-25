@@ -44,7 +44,7 @@ wechat-weapp-wxss-tool
 ├──package.json npm scripts 命令配置在此，及其他相关配置
 ├──README.md   项目描述
 ```
-
+`注意：scss文件夹的文件名对应weapp-source下的pages的页面目录名及wxss的文件名`
 
 
 
