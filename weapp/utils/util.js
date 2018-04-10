@@ -1,3 +1,9 @@
+/*
+ * @Author: ShenBao 
+ * @Date: 2018-04-10 21:17:09 
+ * @Last Modified by:   ShenBao 
+ * @Last Modified time: 2018-04-10 21:17:09 
+*/
 const formatTime = date => {
   const year = date.getFullYear()
   const month = date.getMonth() + 1
