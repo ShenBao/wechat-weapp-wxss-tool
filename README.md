@@ -48,8 +48,9 @@ wechat-weapp-wxss-tool
             ├──logs.wxml
             ├──logs.wxsss scss编译之后处理的文件
             ├──logs.json
-        ├──...        
-	├──utils
+        ├──...
+    ├──utils
+        ├──...
     ├──app.js
     ├──app.json
     ├──app.wxss
