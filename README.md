@@ -62,3 +62,8 @@ wechat-weapp-wxss-tool
 `注意：`
 - scss/pages文件夹的文件名对应weapp下的pages的页面目录名及wxss的文件名
 - scss/components文件夹的文件名对应weapp下的components的组件目录名及wxss的文件名
+
+
+## License 
+
+The MIT License (MIT)
