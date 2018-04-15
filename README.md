@@ -54,7 +54,7 @@ wechat-weapp-wxss-tool
     ├──app.js
     ├──app.json
     ├──app.wxss
-├──gulpfile.js  gulp配置文件
+├──gulpfile.js  gulp 配置文件
 ├──package.json npm scripts 命令配置在此，及其他相关配置
 ├──README.md   项目描述
 ```
