@@ -4,16 +4,16 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "1.9.98",
-	"appid": "",
-	"projectname": "wechat-weapp-wxss-tool",
+	"libVersion": "2.1.1",
+	"appid": "wx5069365538e464b8",
+	"projectname": "shenbao-test",
 	"isGameTourist": false,
 	"condition": {
 		"search": {

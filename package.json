@@ -1,38 +1,35 @@
 {
   "name": "wechat-weapp-wxss-tool",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "",
-  "main": "app.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "clean": "rm -rf ./.css",
     "dev": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "ShenBao shenbao.china@gmail.com",
-  "license": "ISC",
-  "devDependencies": {
-    "del": "^3.0.0",
-    "glob": "^7.1.2",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-watch": "^5.0.0"
+    "style": "gulp style",
+    "img": "gulp img"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShenBao/wechat-wxss-tool.git"
+    "url": "git+https://github.com/ShenBao/wechat-weapp-wxss-tool.git"
   },
-  "keywords": [
-    "wechat",
-    "wxss-tool",
-    "wechat-wxss",
-    "scss->wxss"
-  ],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShenBao/wechat-wxss-tool/issues"
+    "url": "https://github.com/ShenBao/wechat-weapp-wxss-tool/issues"
   },
-  "homepage": "https://github.com/ShenBao/wechat-wxss-tool#readme"
-}
+  "homepage": "https://github.com/ShenBao/wechat-weapp-wxss-tool#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "fs-extra": "^6.0.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0",
+    "minimist": "^1.2.0"
+  }
 }

@@ -1,4 +1,10 @@
 //app.js
+import apiConfig from './config/api-config.js';
+import imgConfig from './config/img-config.js';
+import config from './config/config.js';
+
+console.log(apiConfig, imgConfig, config);
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
